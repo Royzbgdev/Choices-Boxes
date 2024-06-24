@@ -1,0 +1,61 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+
+  background-image: url("BackBody.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  font-family: "Playwrite AU QLD", sans-serif;
+}
+
+p {
+  font-size: 180%;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.part {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.box {
+  width: 45%;
+  height: 50px;
+  font-size: 125%;
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  display: inline-block;
+  padding: 0.5em 1.7em;
+  margin: 0 0.1em 0.1em 0;
+  border: 0.16em solid rgba(255, 255, 255, 0);
+  background-color: rgb(0, 26, 255);
+  border-radius: 2em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: larger;
+  color: #ffffff;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  transition: all 0.2s;
+}
+
+button:hover {
+  border-color: rgb(255, 255, 255);
+}
